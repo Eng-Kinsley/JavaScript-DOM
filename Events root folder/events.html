@@ -1,0 +1,76 @@
+<!--events interface represent any event that takes place in the DOM
+- can be user generated or by an API
+- There are many types of events
+- events contains properties and methods. -->
+<!-- -addEventListener function takes in the event to listen for, and a second argument to be called whenever the described event fires. the code below shows how the event listener function looks like👇👇👇-->
+<!-- addEventListener("click", function(){
+	logic inside function
+}) -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="events.css">
+	<script type="text/javascript" src="events.js" defer></script>
+	<title>Events ( ͡• ͜ʖ ͡• )</title>
+</head>
+<body>
+	<div id="clicky">
+		Have some.
+		<button id="button1">Click here❤</button>
+	</div>
+	<div id="doodle">
+		<p>Hello, you gonna click me or what?</p>
+		<button id="buttonly">Press me</button>
+	</div>
+	<div id="sploosh">
+		<p>Click the button if you want to read more.</p>
+		<button id="read">Read More👌</button>
+	</div>
+	<div id="info">
+		<p>for more information press.</p>
+		<button id="more">Information</button>
+	</div>
+	<div id="once">
+		<p>You can only click once💔.</p>
+		<button id="only">Click Once</button>
+	</div>
+	<div class="background-color" id="propagate">
+		<h2>I am size H2 header!</h2>
+	</div>
+	<div class="background" id="improved">
+		<h2>I am the new size H2 header!</h2>
+	</div>
+	<div class="backy" id="listy">
+		<h2>I am the header with List items.</h2>
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+		</ul>
+	</div>
+	<div class="backup" id="lisious">
+		<h2>I am ID lisious.</h2>
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+		</ul>
+	</div>
+	<div class="blur" id="unique">
+		<h2>I am a unique ID</h2>
+		<ul>
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+			<li>Item 5</li>
+		</ul>
+	</div>
+</body>
+</html>

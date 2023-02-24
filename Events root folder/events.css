@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: ghostwhite;
+}
+
+.background-color {
+	background: orange;
+	border: 1px solid black;
+}
+
+.background {
+	background: palegoldenrod;
+	border: 1px solid black;
+}
+
+.backy {
+	background: palegoldenrod;
+	border: 1px solid black;
+}
+
+.backup {
+	background: palegoldenrod;
+	border: 1px solid black;
+}
+
+.blur {
+	background: palegoldenrod;
+	border: 1px solid black;
+}

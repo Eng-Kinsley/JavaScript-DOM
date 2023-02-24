@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+} 
+body {
+	background-color: antiquewhite;
+	font-size: 25px;
+}
+
+article {
+	background-color: purple;
+	height: auto;
+	margin-left: inherit;
+	margin-right: 70%;
+}
+
+.cities {
+	background-color: teal;
+	height: auto;
+	margin-left: inherit;
+	margin-right: 55%;
+	border-radius: 10%;
+}
+
+#woow{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+}
+
+#gamer{
+	color: palevioletred;
+	background-color: yellow;
+	margin: 12px;
+	border-radius: 60%;
+}
+
+#dancer{
+	color: blueviolet;
+	background-color: greenyellow;
+	margin: 12px;
+	border-radius: 60%;
+}
+
+#artist{
+	color: slategrey;
+	background-color: palevioletred;
+	margin: 12px;
+	border-radius: 60%;
+}
+
+#family{
+	color: greenyellow;
+	background-color: blueviolet;
+	margin: 12px;
+	border-radius: 60%;
+}
+
+#provider{
+	color: bisque;
+	background-color: slategrey;
+	margin: 12px;
+	border-radius: 60%;
+}
+
+#gamer li {
+	margin-right: 15px;
+}
+
+#dancer li {
+	margin-right: 15px;
+}
+
+#artist li {
+	margin-right: 15px;
+}
+
+#family li {
+	margin-right: 15px;
+}
+
+#provider li {
+	margin-right: 15px;
+}
