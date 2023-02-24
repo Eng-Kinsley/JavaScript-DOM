@@ -1,2 +1,2 @@
-# background_generator
-Hello there
+# JAVASCRIPT DOCUMENT OBJECT MODULE
+Just doing a simple recap on the DOM.
